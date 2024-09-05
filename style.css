@@ -85,6 +85,7 @@ body {
     font-size: 7em;
     font-family: 'Clarika Pro Geometric', sans-serif;
     margin-top: 1em;
+    text-align : center;
     font-weight: bolder;
     color: lightgray;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);

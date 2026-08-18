@@ -1,0 +1,6 @@
+---
+description: Ask which skill or flow fits your situation. A router over the skills in this repo.
+agent: build
+---
+
+Invoke the `ask-matt` skill via the skill tool and follow its workflow. $ARGUMENTS

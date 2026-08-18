@@ -6,14 +6,14 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 type Product = { img: string; name: string }
 
 const PRODUCTS: Product[] = [
-  { img: '/image1.webp', name: 'One Set Muslim' },
-  { img: '/image2.webp', name: 'Daster' },
-  { img: '/image3.webp', name: 'Daster' },
-  { img: '/image4.webp', name: 'Tunik' },
-  { img: '/image5.webp', name: 'Kemeja' },
-  { img: '/image7.webp', name: 'Tunik' },
-  { img: '/image8.webp', name: 'Daster' },
-  { img: '/image9.webp', name: 'Dress' },
+  { img: './image1.webp', name: 'One Set Muslim' },
+  { img: './image2.webp', name: 'Daster' },
+  { img: './image3.webp', name: 'Daster' },
+  { img: './image4.webp', name: 'Tunik' },
+  { img: './image5.webp', name: 'Kemeja' },
+  { img: './image7.webp', name: 'Tunik' },
+  { img: './image8.webp', name: 'Daster' },
+  { img: './image9.webp', name: 'Dress' },
 ]
 
 const toggle = document.querySelector<HTMLButtonElement>('.nav__toggle')
